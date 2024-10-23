@@ -1,0 +1,39 @@
+{
+  "name": "china-province-city-district-geojson",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "generateIndex": "ts-node generateIndex.ts",
+    "fetchGeoJson": "node ./main.mjs",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/china-province-city-district-geojson"
+  },
+  "author": "simin<simen313523658@gmail.com>",
+  "license": "MIT",
+  "description": "China province, city, and district GeoJSON data",
+  "keywords": [
+    "geojson",
+    "china",
+    "province",
+    "city",
+    "district",
+    "map"
+  ],
+  "dependencies": {
+    "got": "^14.4.3",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
