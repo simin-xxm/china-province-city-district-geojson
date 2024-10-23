@@ -1,6 +1,6 @@
 {
   "name": "china-province-city-district-geojson",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/china-province-city-district-geojson"
+    "url": "https://github.com/simin-xxm/china-province-city-district-geojson"
   },
   "author": "simin<simen313523658@gmail.com>",
   "license": "MIT",
