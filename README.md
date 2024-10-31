@@ -12,11 +12,11 @@
 首先，确保你已经安装了 Node.js。然后，通过 npm 或 yarn 安装本项目：
 
 ```bash
-npm install your-package-name
+npm install china-province-city-district-geojson
 ```
 
 ## 或者使用 yarn
 
 ```
-yarn add your-package-name  
+yarn add china-province-city-district-geojson
 ``` 
